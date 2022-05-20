@@ -1,5 +1,5 @@
 {
-  "name": "zapi-dummy-core",
+  "name": "zapi-dummy-identity",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -30,6 +30,7 @@
     "@nestjs/common": "^8.0.0",
     "@nestjs/config": "^2.0.0",
     "@nestjs/core": "^8.0.0",
+    "@nestjs/jwt": "^8.0.1",
     "@nestjs/platform-express": "^8.0.0",
     "@nestjs/swagger": "^5.2.1",
     "@nestjs/typeorm": "^8.0.3",
@@ -40,7 +41,7 @@
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0",
     "swagger-ui-express": "^4.4.0",
-    "typeorm": "^0.2.43",
+    "typeorm": "^0.2.45",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
@@ -89,10 +90,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zummit-Africa-Inc/zapi-dummy-core.git"
+    "url": "git+https://github.com/Zummit-Africa-Inc/zapi-dummy-identity.git"
   },
   "bugs": {
-    "url": "https://github.com/Zummit-Africa-Inc/zapi-dummy-core/issues"
+    "url": "https://github.com/Zummit-Africa-Inc/zapi-dummy-identity/issues"
   },
-  "homepage": "https://github.com/Zummit-Africa-Inc/zapi-dummy-core#readme"
+  "homepage": "https://github.com/Zummit-Africa-Inc/zapi-dummy-identity#readme"
 }
